@@ -1,6 +1,6 @@
-# Python journey mini project
+# Python journey mini proyecto
 
-## This is my journey through python learning.
+## Asi es mi viaje en el aprendizaje de Python.
 
 En este repositorio tratare de subir mi experiencia de aprendisaje en Python
 estara estructurado a modo de mini curso o repaso, explicado con mis
@@ -77,6 +77,12 @@ Depurar es encontrar y corregir errores en el codigo.
 
 Manejo de errores es escribir codigo que controle situaciones inesperadas.
 
-## Introduccion a Python
+## Nota:
+
+La mayoria de este proyecto y sus repasos en general estaran escritos directamente en un archivo de Python (.py)
+para que resulte mas facil la comprencion y ejecucion de cada una de sus partes, las partes de los ejercicios
+vendran en dos archivos una con las instrucciones y otra con los ejercicios resueltos a mi manera, en caso de que resulte
+dificil la resolucion de los mismos, sientete libre de revisar las respuestas si te atoras, pero te recomiendo mucho tratar
+de resolverlos por tu cuenta.
 
 ### Indice

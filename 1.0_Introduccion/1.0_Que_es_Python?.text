@@ -1,0 +1,64 @@
+Que es Python?
+
+Este es una lenguaje de programacion de alto nivel, interpretado, multi paradigma y de tipado dinamico,
+fue creado por Guido Van Rossum y su nombre esta inspirado en la serie de comedia "Monty Python's Flying Circus".
+
+Objetivos de Python
+
+Ser un lenguaje de programacion, facil, intuitivo y comprensible como el ingles simple, pero potente como sus competidores.
+De codigo abierto para que cualquier persona pueda participar en su desarrollo.
+Adecuado para tareas cotidianas.
+
+Donde no Python?
+
+En programacion de bajo nivel y desarrollo de aplicaciones moviles (por el momento).
+
+Como instalar Python?
+
+Si eres usuario de Linux es probable que ya lo tengas instalado, para comprobar esto abre tu terminal y escribe python3,
+esto deberia darte de vuelta la version que viene instalada en tu distribucion de Linux, en el raro caso que no venga instalado
+consulta la documentacion para instalarlo por medio de la terminal.
+
+Si perteneces a Windows dirigete a la pagina oficial de Python ve a la parte de descagas y descarga la ultima version,
+ejecuta el archivo descargado y sigue las instrucciones del wizard de instalacion, al finalizar ya tendras instalado
+Python en tu sistema Windows.
+
+Como trabajar con Python?
+
+Para trabajar con python puedes hacerlo en un editor online o playground te recomiendo el siguiente
+
+https://www.online-python.com
+
+Pero siempre es recomendable trabajar en un IDE(Entorno de desarrollo integrado por sus siglas en ingles) dentro de tu mismo
+sistema operativo, te recomiendo utilizar VsCode, ya que es el IDE mas usado a nivel mundial ademas de ser altamente personalizable
+para que se ajuste a tus necesidades como programador lo puedes descargar de su pagina oficial.
+
+https://code.visualstudio.com/
+
+Creando tu primer programa en Python.
+
+En caso de haber optado por el camino de VsCode debemos realizar algunos ajustes antes de crear nustro primer programa en Python.
+
+El primero sera instalar estas extenciones:
+
+    Python
+    Error lens 
+    Code runner
+
+El segundo sera setear el interpreter de Python en VsCode, para esto oprime, ctrl + shift + p, y escribe en la caja de texto que se abre 
+Python: Select interpreter presinamos enter y seleccionamos el que venga como recomendado.
+
+con eso sera mas que suficiente para comenzar a crear nuestro primer programa, pero sientete libre de buscar y hacer las configuraciones
+a tu gusto.
+
+vamos a crear una carrpeta y dentro de esta carpeta crearemos un archivo llamado "Hola.py" la extencion ".py" es importante por que 
+es la extencion de Python y asi tu IDE reconocera que es un archivo con codido de Python, terminado esto excribe lo siguiente:
+
+    print("Hello, World!")
+
+No te preocupes por la sintaxis del codigo anterior, posterior mente la comprenderas mejor.
+ahora vamos a ejecutar tu codigo, recuerda siempre guardar tu archivo cada que escribas codigo nuevo y quieras ejecutar tu programa,
+puedes utilizar el atajo (ctrl + s) para guardarlo, ahora mira en la parte superior derecha y encontraras un boton de play, esto ejecutara 
+tu programa y abrira una consola dentro del mismo VsCode ejecutandolo.
+
+¡Felicidades! haz escrito y ejecutado tu primer programa en Python.
