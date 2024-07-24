@@ -71,5 +71,36 @@ suma(20, 30)
 
 '''
 Nuestra funcion print():
+    La funcion print nos sirve para devolver datos legibles para el usuario a traves de la consola, esta funcion
+    recibe como argumentos cualquier tipo de dato existente en Python.
+
+En el siguiente ejemplo veremos como trabaja nuestra funcion print()
+'''
+print("Esta es la primer linea")
+print()
+print("Esta es otra linea")
 
 '''
+Fijate en como mandamos a llamar un print() sin argumentos y en consola se refleja como una linea vacia, podemos tomar
+ventaja de este comportmiento pero, a continucion veremos como hacer saltos de linea en consola sin la necesidad de tener 
+muchos print() en el codigo.
+
+Caracter de nueva linea:
+    este caracter se conforma de una diagonal invertida \ seguida de la letra n, de esta manera \n, asi podremos indicar a 
+    nuestra funcion print que queremos un salto de linea en esa posicion, ejemplo:
+'''
+print("Esta es la primera linea \nEsta es la segunda linea")
+
+'''
+Mas de un argumento en nuestra funcion print():
+    Cuando introducimos mas de un argumento en nuestro print debemos separarlos por comas ejemplo:
+'''
+print("Esto","es","mas","de","un","argumento")
+'''
+Puedes notar que aun que nuestros argumentos no tienen espacios entre si al momento de imprimirlo en consola Python por
+iniciativa propia los coloca, se muestran en orden ya que son argumetnos posicionales y ademas se muestran en una sola linea.
+
+Podemos cambiar este comportamiento agregando la palabra clave sep="" y dentro de las comillas indicaremos el caracter que
+queremos utilizar en vez de los espacios, ejemplo:
+'''
+print("Esto","es","mas","de","un","argumento", sep="+")
