@@ -86,12 +86,3 @@ dificil la resolucion de los mismos, sientete libre de revisar las respuestas si
 de resolverlos por tu cuenta.
 
 ### Indice
-
-=========
-| ||
-o ||
-/|\ ||
-/ \ ||
-||
-============
-||**_||_**||
