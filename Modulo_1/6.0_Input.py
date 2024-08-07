@@ -27,7 +27,7 @@ string2 = input("Introduce el segundo numero: ")
 print("Nota como al ser los dos strings y querer hacer una suma estas se concatenan y no se suman: ", string + string2)
 
 #Nota: al utilizar un simbolo de * en una combinacion de cadenas y numeros este se convierte en un simbolo de replica
-print("Nota como el Hola, sera repicado 3 veces: ", 3 * "Hola")
+print("Nota como el Hola, sera replicado 3 veces: ", 3 * "Hola")
 #Recuerda: un numero igual o menor que 0, produce una cadena vacia.
 
 '''
