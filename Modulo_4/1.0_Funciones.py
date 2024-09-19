@@ -141,5 +141,47 @@ pelicula("Juan","Spiderman")
 pelicula(pelicula = "Harry Potter")
 
 ''''
-Retornando el resultado de una funcion
+Retornando el resultado de una funcion:
+    Hasta ahora hemos utilizado las funciones sin un return y esto es por que estas funciones
+    no devuelven como resultado un valor, en el momento que declaremos una funcion que nos
+    devuelva un valor necesitaremos utilizar la palabra reservada "return" para que ese valor
+    nos sea devuelto y podamos utilizarlo despues si asi lo queremos, ya que si no retornamos
+    el valor, este nos arrojara None.
 '''
+def suma(numero_1,numero_2):
+    resultado = print("El resultado de la suma es:",numero_1 + numero_2)
+    return resultado
+suma(23,45)
+'''
+Nota: Al utilizar el return se dara finalizada la ejecucion de nuestra funcion por lo tanto
+el codigo que escribamos dentro de la funcion y despues del return no se ejecutara
+'''
+#return con multiples valores
+def operacion(numero_1,numero_2):
+    suma = print("La suma de estos numeros es:", numero_1 + numero_2)
+    resta = print("La resta de estos numeros es:", numero_1 - numero_2)
+    return suma, resta
+operacion(34,89)
+#return dentro de condicionales en una fuuncion
+def evaluar_numero(x):
+    if x > 0:
+        return "Positivo"
+    elif x < 0:
+        return "Negativo"
+    else:
+        return "Cero"
+print(evaluar_numero(5))  # Imprimirá "Positivo"
+print(evaluar_numero(-2))  # Imprimirá "Negativo"
+print(evaluar_numero(0))  # Imprimirá "Cero"
+#en este caso la funcion terminara sin importar el lugar en donde este
+
+'''
+En una funcion podemos pasar una lista como argumento
+'''
+def list_sum(list):
+    s = 0
+    for elem in list:
+        s += elem
+    return s
+print("La suma de los valores de la lista es:",list_sum([5, 4, 3]))
+
