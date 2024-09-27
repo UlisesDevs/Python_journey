@@ -103,4 +103,4 @@ iniciativa propia los coloca, se muestran en orden ya que son argumetnos posicio
 Podemos cambiar este comportamiento agregando la palabra clave sep="" y dentro de las comillas indicaremos el caracter que
 queremos utilizar en vez de los espacios, ejemplo:
 '''
-print("Esto","es","mas","de","un","argumento", sep="+")
+print("Esto","es","mas","de","un","argumento", sep="+") 
