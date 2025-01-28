@@ -16,7 +16,7 @@ Argumentos en las funciones:
     Los argumentos en una funcion son datos  que necesitamos aportar a estas para que realicen su tarea, una funcion puede o no requerir un argumento, puede tener cualquier cantidad de argumentos asi como tipos de datos, ejemplo de argumento son los datos que escribimos dentro de los parentesis de la funcion print("Hola").
 
 Sintaxis de una funcion:
-    para declarar una funcion en Ptyhon comenzaremos por la palabra reservada "def" seguida de un espacio, a continuacion daremos nombre a nuestra funcion seguida de parentesis, dentro de estos parentesis iran nuestros argumentos en caso de necesitarlos y en caso de ser mas de un argumento estos iran separados por coma, cerraremos nuestra declaracion con dos puntos, quedaria de esta forma:
+    para definir una funcion en Ptyhon comenzaremos por la palabra reservada "def" seguida de un espacio, a continuacion daremos nombre a nuestra funcion seguida de parentesis, dentro de estos parentesis iran nuestros parametros en caso de necesitarlos y en caso de ser mas de un parametro estos iran separados por coma, cerraremos la definicion de nuestra funcion con dos puntos, quedaria de esta forma:
 
         def nombre_funcion(parametro1, parametro2):
         
@@ -64,10 +64,11 @@ Sintaxis de una funcion:
 '''
 
 def suma(num1, num2):
-    resultado = print(num1 + num2)
+    resultado = num1 + num2
     return resultado
 
-suma(20, 30)
+print(suma(20, 30))
+#Nota como necesitamos de la funcion print() para poder ver el resultado de nuestra funcion suma()
 
 '''
 Nuestra funcion print():
@@ -89,7 +90,7 @@ Caracter de nueva linea:
     este caracter se conforma de una diagonal invertida \ seguida de la letra n, de esta manera \n, asi podremos indicar a 
     nuestra funcion print que queremos un salto de linea en esa posicion, ejemplo:
 '''
-print("Esta es la primera linea \nEsta es la segunda linea")
+print("Esta es la primer linea \nEsta es la segunda linea")
 
 '''
 Mas de un argumento en nuestra funcion print():

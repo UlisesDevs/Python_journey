@@ -9,7 +9,7 @@ Reglas para nombrar una variable:
     El carater _ es considerado un letra
     Hay distincion de mayusculas y minusculas
     No utilizar palabras reservadas
-    No comenzar con numeros
+    No comenzar con numeros o signos
     En caso de tener mas de una plabras debe de escribirse en snake_case
     No deben tener espacios
 
@@ -24,7 +24,7 @@ palabras_reservadas = ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 
 Como crear una variable:
     Una variable puede almacenar cualquier cosa
     para crear una variable hay que seguir la siguiente sintaxis:
-        asignarle un nombre, despues con el signo de = asignaremos el valor que esta almacenara ejemplo:
+        declarar un nombre, despues con el signo de = asignaremos el valor que esta almacenara ejemplo:
 
             variable = 1
 '''
@@ -63,6 +63,7 @@ Tambien podemos utilizarlo para marcar parte de nuestro codigo que no se necesit
 su sintaxis es la siguiente:
 '''
 #Para agregar comentarios de una sola linea tenemos que colocar el signo # al principio de la linea.
+
 '''
 Para agregar comentarios de varias lineas utilizamos 6 comillas, 3 al principio de nuestro
 texto y 3 al final de nuestro texto.

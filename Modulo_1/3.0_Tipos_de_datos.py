@@ -2,7 +2,7 @@
 Literales:
     una literal es un valor fijo en el codigo, este puede ser de distintos tipos y se pueden almacenar o no en variables
     existen literales que por si solas nos dan a entender el valor que tienen como, los numeros enteros, flotantes, booleanos
-    pero las cadenas de texto necesitan forsosamente de comillas para identificarlas como tal ejemplo, "Esta es una cadena de texto"
+    pero las cadenas de texto necesitan forsosamente de comillas para identificarlas como tal, ejemplo, "Esta es una cadena de texto"
     estas tambien representan los tipos de datos.
 
 Numeros enteros:
@@ -43,7 +43,7 @@ Numeros flotantes:
         en Python representamos la notacion cientifica on las letras "E o e" ejemplo, para la velocidad de la luz 3e8
         en donde el numero despues de la "e" tiene que ser un entero mientras que antes de esta puede ser flotante.
 
-        en caso contrario para los numeros muy pequeños ejemplo, 0.0000000000000000000001 en notacion cientifica seria 
+        en caso contrario para los numeros muy pequeños ejemplo, 0.00662607 (Constante de PLank) en notacion cientifica seria 
         6.62607 x 10^-34 y en Python lo podemos representar asi: 6.62607E-34
         veamos un par de ejemplos:
 '''

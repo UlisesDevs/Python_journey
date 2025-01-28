@@ -32,7 +32,7 @@ print("Esto es el resultado de un modulo: ", 14 % 4)
 #Suma: se representa con el signo +
 print("Esto es el resultado de una suma: ", 10 + 10)
 
-#Resta: ser epresenta por el signo -
+#Resta: se epresenta por el signo -
 print("Esto es el resultado de una resta: ", 15 - 10)
 
 '''
