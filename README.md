@@ -33,8 +33,11 @@ Los tipos de datos definen el tipo de valor que puede almacenar una variable.
 Tipos comunes:
 
 -Enteros (int): Números sin decimales (10, -3).
+
 -Flotantes (float): Números con decimales (3.14, -0.5).
+
 -Cadenas de texto (str): Texto ("Hola", "Python").
+
 -Booleanos (bool): Valores de verdadero o falso (True, False).
 
 ### Estructuras de control
@@ -45,6 +48,7 @@ Las estructuras de control determinan el flujo del programa. Permiten tomar deci
 Tipos comunes:
 
 -Condicionales (if/else): Ejecutan código basado en condiciones.
+
 -Bucles (loops): Repiten código varias veces.
 
 ### Funciones
